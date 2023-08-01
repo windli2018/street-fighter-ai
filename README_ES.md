@@ -31,6 +31,7 @@ conda activate StreetFighterAI
 
 # Instalar bibliotecas de Python
 cd [directorio_padre_del_proyecto]/street-fighter-ai/main
+pip install setuptools==63.2.0
 pip install -r requirements.txt
 
 # Ejecutar script para localizar la carpeta del juego gym-retro

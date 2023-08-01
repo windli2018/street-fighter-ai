@@ -31,6 +31,7 @@ conda activate StreetFighterAI
 
 # 安装 Python 代码库
 cd [项目上级文件夹]/street-fighter-ai/main
+pip install setuptools==63.2.0
 pip install -r requirements.txt
 
 # 运行程序脚本定位 gym-retro 游戏文件夹位置
